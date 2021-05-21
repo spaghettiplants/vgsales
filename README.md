@@ -48,6 +48,6 @@ their console type. For example: Game Boy Advance, Nintendo 64, 3DS, and others 
 This merging of classes can be seen in the next 2 images.
 
 ![](images/vg_platform.png)
-![](images/vg_merged_platforms.png)
+![](images/vg_merged_platforms.PNG)
 </details>
 
