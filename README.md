@@ -1,12 +1,12 @@
 # Predicting Video Game Performance Levels 🎮
+<details>
+<summary>Intro</summary>
 
-## Intro
+### Doc Overview 📄
 
-<summary>### Doc Overview 📄</summary>
+This project was the 2nd capstone for my Thinkful coursework. The "Capstone_2.ipynb" file is the Jupyter Notebook containing my code for the project.
 
-<p>This project was the 2nd capstone for my Thinkful coursework. The "Capstone_2.ipynb" file is the Jupyter Notebook containing my code for the project.</p>
-
-The other file, "Predicting Video Game Performance", is the slide deck that was used for the presentation.
+The other file, "Predicting Video Game Performance", is the slide deck that was used for the presentation.</details>
 
 ### Background ✨
 
