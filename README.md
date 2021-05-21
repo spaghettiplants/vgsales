@@ -17,9 +17,10 @@ determine which games to promote so they can maximize sales or the information c
 games to invest in before they're actually released. In this project, I explore some methods for predicting how well
 a video game will perform in the global market.</details>
 
+<details>
 <summary>Part I</summary>
 
-<details>This section goes over the dataset, exploration, and model preparation portions of the project.
+This section goes over the dataset, exploration, and model preparation portions of the project.
 
 ### The Dataset 🗄️
 
