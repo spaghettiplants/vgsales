@@ -45,6 +45,9 @@ The following columns were in the original file:
 
 In an effort to help address class imbalances in the platform and publisher variables, the platforms were merged based on
 their console type. For example: Game Boy Advance, Nintendo 64, 3DS, and others were merged into a "Nintendo Console" class.
-  
+This merging of classes can be seen in the next 2 images.
+
+![](images/vg_platform.png)
+![](images/vg_merged_platforms.png)
 </details>
 
