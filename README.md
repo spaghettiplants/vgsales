@@ -1,14 +1,14 @@
 # Predicting Video Game Performance Levels 🎮
 <details>
-##<summary>Intro</summary>
+<summary>Intro</summary>
 
-### Doc Overview 📄
+## Doc Overview 📄
 
 This project was the 2nd capstone for my Thinkful coursework. The "Capstone_2.ipynb" file is the Jupyter Notebook containing my code for the project.
 
 The other file, "Predicting Video Game Performance", is the slide deck that was used for the presentation.
 
-### Background ✨
+## Background ✨
 
 Video games are a large industry in the United States. In 2020, a year where several people were at home due to the pandemic,
 the $56.9 billion industry was 27% higher than 2019. With such a large industry, being able to predict which games
@@ -22,7 +22,7 @@ a video game will perform in the global market.</details>
 
 This section goes over the dataset, exploration, and model preparation portions of the project.
 
-### The Dataset 🗄️
+## The Dataset 🗄️
 
 The dataset can be found on [Kaggle](https://www.kaggle.com/gregorut/videogamesales). It contains 16,598 records
 of video game data scraped from [VGChartz](https://www.vgchartz.com/). 
@@ -41,10 +41,12 @@ The following columns were in the original file:
 * Other_Sales
 * Global_Sales
 
-### Feature Engineering 👨🏽‍🔬
+## Feature Engineering 👨🏽‍🔬
 
 In an effort to help address class imbalances in the platform and publisher variables, the platforms were merged based on
 their console type. For example: Game Boy Advance, Nintendo 64, 3DS, and others were merged into a "Nintendo Console" class.
+  
+[Platform before merge](/vgsales/vg_platform.png)
   
 </details>
 
