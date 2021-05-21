@@ -6,6 +6,15 @@ This project was the 2nd capstone for my Thinkful coursework. The "Capstone_2.ip
 
 The other file, "Predicting Video Game Performance", is the slide deck that was used for the presentation.
 
+## Background ✨
+
+Video games are a large industry in the United States. In 2020, a year where several people were at home due to the pandemic,
+the $56.9 billion industry was 27% higher than 2019. With such a large industry, being able to predict which games
+will perform well or not-so-well can be useful for a variety of reasons. A video game franchise can use this knowledge to
+determine which games to promote so they can maximize sales or the information can be used to help determine what kind of
+games to invest in before they're actually released. In this project, I explore some methods for predicting how well
+a video game will perform in the global market.
+
 ## Part I
 
 This section goes over the dataset, exploration, and model preparation portions of the project.
@@ -28,3 +37,9 @@ The following columns were in the original file:
 * JP_Sales
 * Other_Sales
 * Global_Sales
+
+### Feature Engineering 👨🏽‍🔬
+
+In an effort to help address class imbalances in the platform and publisher variables, the platforms were merged based on
+their console type. For example: Game Boy Advance, Nintendo 64, 3DS, and others were merged into a "Nintendo Console" class.
+
