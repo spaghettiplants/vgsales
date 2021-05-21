@@ -1,6 +1,6 @@
 # Predicting Video Game Performance Levels 🎮
 <details>
-<summary>Intro</summary>
+<summary>##Intro</summary>
 
 ### Doc Overview 📄
 
