@@ -89,6 +89,22 @@ after Principal Component Analysis and Multiple Correspondence Analysis yielding
   One of the issues with these models are the lack of target variable explanation from the engineered features. More specifically, 
   the under-prediction of the middle third class. The following confusion matrices are from the KNN and SVC models.
   
-  ![](images/knn_conf_matrix.png)
-  ![](images/svc_conf_matrix.png)
+  ### KNN Confusion Matrix
+  <img src="images/knn_conf_matrix.png" width = "50%">
+  ### SVC Confusion Matrix
+  <img src="images/svc_conf_matrix.png" width = "50%">
+  
+  Note the difference in the predicted column "1", the class "Middle Third". For the SVC model, it predicts that 0 video games
+  would fall into this category. This is, of course, incorrect as there were 900+ games in that class within the test set.
+  This under-prediction of the middle third class occurs in each model, but the KNN model is the model that predicts the most in
+  that class. This issue could be resolved with the SMOTE, which will be implemented later on and updated here.
+  
+## Final Conclusion
+  
+  With the current state of the class imbalance issues, the KNN model is best due to the fact that it actually has some predictions
+  for the middle third class and still has a range of accuracies as high as the other model types. However, this is still only with
+  accuracies in the 40s and various ways to improve upon the project.
 </details>
+
+<details>
+  <summary>Shortcomings and Future Updates</summary>
