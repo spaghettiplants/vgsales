@@ -91,6 +91,8 @@ after Principal Component Analysis and Multiple Correspondence Analysis yielding
   
   ### KNN Confusion Matrix
   <img src="images/knn_conf_matrix.png" width = "50%">
+  
+  
   ### SVC Confusion Matrix
   <img src="images/svc_conf_matrix.png" width = "50%">
   
@@ -108,3 +110,13 @@ after Principal Component Analysis and Multiple Correspondence Analysis yielding
 
 <details>
   <summary>Shortcomings and Future Updates</summary>
+  
+  <ins>Shortcomings</ins>
+  * Class imbalance issues
+  * Under-prediction of the middle third class
+  * Choice of evaluation metric: accuracy
+  
+  <ins>Future Updates</ins>
+  * Merging of genres to help address class imbalance
+  * SMOTE to help address class imbalance
+  * Using a better evaluation metric
