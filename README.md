@@ -49,5 +49,20 @@ This merging of classes can be seen in the next 2 images.
 
 ![](images/vg_platform.png)
 ![](images/vg_merged_platforms.PNG)
+  
+Since this was a classification problem, a target variable had to be created. The Performance Level of a video game
+indicates whether it'll perform as well as the top, middle, or bottom third of all video games.
+  
+The final features and target variable used in our training data were:
+* Platform Category (Nintendo, Playstation, PC/XBOX/Other)
+* Publisher Volume (At least 10 games, Between 1 and 10 games, and 1 game)
+* Genre (Adventure, Arcade, and 10 others)
+* Performance Category (Top, Middle, Third)
+
 </details>
 
+<details>
+<summary>Part II</summary> 
+  
+##
+</details>
