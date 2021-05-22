@@ -57,12 +57,38 @@ The final features and target variable used in our training data were:
 * Platform Category (Nintendo, Playstation, PC/XBOX/Other)
 * Publisher Volume (At least 10 games, Between 1 and 10 games, and 1 game)
 * Genre (Adventure, Arcade, and 10 others)
-* Performance Category (Top, Middle, Third)
+* Performance Category (Top, Middle, Bottom Third)
 
+Note: This does seem like a good bit of features to have for training purposes after one-hot encoding. However,
+after Principal Component Analysis and Multiple Correspondence Analysis yielding no benefits, the features were left as is.
 </details>
 
 <details>
 <summary>Part II</summary> 
   
-##
+  This section goes over the implementation and evaluation of models.
+  
+## Implemented Models and Range of Accuracies
+  
+  The following table shows the supervised learning algorithms used and their respective accuracies on the test set
+  with cross-validation.
+  
+  | Model Type | Range of Accuracies with CV (%) |
+  | ---------- | ------------------------------- |
+  | Logistic Regression | 40 - 48 |
+  | KNN | 40 - 45 |
+  | Random Forest Classifier | 40 - 47 |
+  | Support Vector Classifier | 42 - 44 |
+  | Gradient Boosting Classifier | 43 - 45 |
+  
+  Note: Unfortunately, using accuracy as a metric of evaluation is not the best idea. Due to the class-imbalance issues in the features,
+  a different evaluation metric should be used, such as the F1 Score or ROC-AUC Score. This will be further explored and updated.
+  
+## Under-Prediction of Middle Third Class
+  
+  One of the issues with these models are the lack of target variable explanation from the engineered features. More specifically, 
+  the under-prediction of the middle third class. The following confusion matrices are from the KNN and SVC models.
+  
+  ![](images/knn_conf_matrix.png)
+  ![](images/svc_conf_matrix.png)
 </details>
